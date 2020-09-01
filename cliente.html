@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Cadastro do Cliente </title>
+    <style>
+
+        #divHead{
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 10px;
+
+        }
+
+        #divBody {
+
+            position: absolute;
+            top: 100px;
+            left: 10px;
+            width: 1100px;
+            height: 230px;
+            border: 1px solid;
+            border-color: #dcdcdc;
+
+        }
+
+        #DivNome {
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 10px;
+
+        }
+        #LabelNome{
+            display: block;
+        }
+
+        #inputNome{
+            width: 540px;
+        }
+
+
+        #divCpf {
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 596px;
+        }
+
+        #LabelCpf{
+            display: block;
+        }
+
+        #inputCpf{
+            width: 281px;
+        }
+
+
+        #divDatadeNascimento {
+            position: absolute;
+            margin-top: 8px;
+            margin-left: 897px;
+
+        }
+
+        #LabelDatadeNascimento{
+            display: block;
+        }
+
+        #inputDatadeNascimento{
+            width: 133px;
+        }
+
+        #divSalvar {
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 10px;
+        }
+
+        #divCancelar {
+            position: absolute;
+            margin-top: 185px;
+            margin-left: 70px;
+        }
+
+        #buttonSalvar{
+            background-color: #0d0d5f;
+            border: none;
+            color: white;
+            padding: 4px 9px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 4px 2px;
+            cursor: pointer;
+
+        }
+
+        #divEndereco {
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 10px
+        }
+
+        #LabelEndereco{
+            display: block;
+        }
+
+        #inputEndereco{
+            width: 360px;
+        }
+
+        #divBairro {
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 400px
+        }
+
+        #inputBairro{
+            width: 250px;
+        }
+
+        #LabelBairro{
+            display: block;
+        }
+
+        #divCep {
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 680px
+        }
+
+        #inputCep{
+            width: 200px;
+        }
+
+        #LabelCep{
+            display: block;
+        }
+
+        #divDatadeCadastro {
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 901px
+        }
+
+        #LabelDatadeCadastro{
+            display: block;
+        }
+
+        #inputDatadeCadastro{
+            width: 131px;
+        }
+
+        #divMunicipio {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 10px
+        }
+        #inputMunicipio{
+            width: 180px;  
+        }
+
+        #LabelMunicipio{
+            display: block;
+        }
+
+        #divTelefone {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 220px
+        }
+
+        #inputTelefone{
+            width: 150px;  
+        }
+
+        #LabelTelefone{
+            display: block;
+        }
+
+        #divCelular {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 400px
+        }
+
+        #LabelCelular{
+            display: block;
+        }
+
+        #inputCelular{
+            width: 150px;  
+        }
+
+        #divUf {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 600px
+        }
+
+        #inputUf{
+            width: 50px;
+        }
+
+        #LabelUf{
+            display: block;
+        }
+    
+
+        #divIestadual {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 680px
+        }
+
+        #LabelIestadual{
+            display: block;
+        }
+
+        #inputIestadual{
+            width: 200px;
+        }
+
+
+        #divUfEst {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 900px
+        }
+
+        #inputUfEst{
+            width: 132px;
+        }
+
+        #LabelUfEst{
+            display: block;
+        }
+
+
+       
+    </style>
+</head>
+
+<body >  
+
+
+     <div id="divHead" >
+        <h2>Novo Cliente</h2>
+     </div>
+    
+    <div id="divBody">
+
+        <div id="DivNome">
+            <label id="LabelNome" >Nome</label>
+            <input id="inputNome" type="text" />
+        </div>
+
+        <div id="divDatadeNascimento">
+            <label id="LabelDatadeNascimento">Data de Nascimento</label>
+            <input id="inputDatadeNascimento" type="date" />
+        </div>
+
+        <div id="divCpf">
+            <label id="LabelCpf">Cpf</label>
+            <input id="inputCpf" type="text" />
+        </div>
+
+        <div id="divSalvar">
+            <label id="LabelSalvar"></label>
+            <button id="buttonSalvar"></button>
+        </div>
+
+        <div id="divCancelar">
+            <button id="buttonCancelar"> Cancelar </button>
+        </div>
+
+    </div>
+    <div id="divEndereco">
+        <label id="LabelEndereco"></label>
+        <input id="inputEndereco" type="text" />
+
+    </div>
+
+    <div id="divBairro">
+        <label id="LabelBairro"></label>
+        <input id="inputBairro" type="text" />
+    </div>
+
+    <div id="divCep">
+        <label id="LabelCep"></label>
+        <input id="inputCep" type="text" />
+    </div>
+
+    <div id="divDatadeCadastro">
+        <label id="LabelDatadeCadastro"></label>
+        <input id="inputDatadeCadastro" type="date" />
+    </div>
+
+    <div id="divMunicipio">
+        <label id="LabelMunicipio"></label>
+        <input id="inputMunicipio" type="text" />
+    </div>
+
+    <div id="divTelefone">
+        <label id="LabelTelefone"></label>
+        <input id="inputTelefone" type="text" />
+    </div>
+
+    <div id="divCelular">
+        <label id="LabelCelular"></label>
+        <input id="inputCelular" type="number" />
+    </div>
+
+    <div id="divUf">
+        <label id="LabelUf"></label>
+        <input id="inputUf" type="text" />
+    </div>
+
+    <div id="divIestadual">
+        <label id="LabelIestadual"></label>
+        <input id="inputIestadual" type="text" />
+    </div>
+
+    <div id="divUfEst">
+        <label id="LabelUfEst"></label>
+        <input id="inputUfEst" type="text" />
+    </div>
+    <script>
+
+        document.getElementById("LabelNome").innerHTML = "Nome";
+        document.getElementById("LabelCpf").innerHTML = "CPF";
+        document.getElementById("LabelDatadeNascimento").innerHTML = "Data de Nascimento ";
+        document.getElementById("buttonSalvar").innerHTML = "Salvar ";
+        document.getElementById("LabelEndereco").innerHTML = "Endereço";
+        document.getElementById("LabelBairro").innerHTML = "Bairro";
+        document.getElementById("LabelCep").innerHTML = "CEP";
+        document.getElementById("LabelDatadeCadastro").innerHTML = "Data de Cadastro";
+        document.getElementById("LabelMunicipio").innerHTML = "Municipio";
+        document.getElementById("LabelTelefone").innerHTML = "Telefone";
+        document.getElementById("LabelCelular").innerHTML = "Celular";
+        document.getElementById("LabelUf").innerHTML = "UF";
+        document.getElementById("LabelIestadual").innerHTML = "Inscrição Estadual";
+        document.getElementById("LabelUfEst").innerHTML = "UF";
+
+
+        function Salvar() {
+
+            console.log("Salvo com Sucesso");
+
+            let nome = document.getElementById("inputNome").value;
+
+            console.log(nome);
+        }
+
+
+    </script>
+
+</body>
