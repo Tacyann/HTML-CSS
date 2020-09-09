@@ -10,6 +10,7 @@ function criarDivParaInput(nomeLabel, top, left, size) {
 
     let label = dom.createElement("label");
     label.setAttribute("id", "label"+nomeLabel);
+    //let label = dom.getElementById("nomeLabel").textContent;
 
     let texto = dom.createTextNode(nomeLabel);
 
