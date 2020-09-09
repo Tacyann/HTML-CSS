@@ -3,7 +3,7 @@ function formatarDivBody() {
     body.style.position = "absolute";
     body.style.top = "10px";
     body.style.left = "10px";
-    body.style.width = "1450px";
+    body.style.width = "1160px";
     body.style.height = "400px";
     body.style.border = " 1px solid";
     body.style.borderColor = "#DCDCDC";
@@ -14,19 +14,19 @@ formatarDivBody();
 
 function criarComponentes() {
 
-    criarDivParaInput("Nome", "10px", "10px");
-    criarDivParaInput("CPF", "10px", "380px");
-    criarDivParaInput("Data de Nascimento", "10px", "680px");
-    criarDivParaInput("Endereco", "50px", "10px");
-    criarDivParaInput("Bairro", "50px", "250px");
-    criarDivParaInput("CEP", "50px", "480px");
-    criarDivParaInput("Data de Cadastro", "50px", "700px");
-    criarDivParaInput("Municipio", "85px", "10px");
-    criarDivParaInput("Telefone", "85px", "270px");
-    criarDivParaInput("Celular", "85px", "520px");
-    criarDivParaInput("UF", "85px", "750px");
-    criarDivParaInput("Inscricao Estadual", "85px", "950px");
-    criarDivParaInput("UF", "85px", "1250px");
+    criarDivParaInput("Nome", "10px", "10px", 60);
+    criarDivParaInput("CPF", "10px", "540px",34);
+    criarDivParaInput("Data de Nascimento", "10px", "850px",20);
+    criarDivParaInput("Endereco", "50px", "10px", 45);
+    criarDivParaInput("Bairro", "50px", "420px",25);
+    criarDivParaInput("CEP", "50px", "672px", 15);
+    criarDivParaInput("Data de Cadastro", "50px", "850px", 23);
+    criarDivParaInput("Municipio", "85px", "10px", 15);
+    criarDivParaInput("Telefone", "85px", "222px",15);
+    criarDivParaInput("Celular", "85px", "426px",10);
+    criarDivParaInput("UF", "85px", "580px",5);
+    criarDivParaInput("Insc.Estadual", "85px", "670px",7);
+    criarDivParaInput("UF", "85px", "850px",36);
 
     criarDivParaButton("Salvar", "200px", "10px", "salvarCliente");
     criarDivParaButton("Cliente no Console", "200px", "100px", "imprimirClientesNoConsole");

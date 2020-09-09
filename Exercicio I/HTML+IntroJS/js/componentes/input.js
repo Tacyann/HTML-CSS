@@ -1,4 +1,4 @@
-function criarDivParaInput(nomeLabel, top, left) {
+function criarDivParaInput(nomeLabel, top, left, size) {
 
     let dom = document;
     let div = dom.createElement("div");
@@ -6,6 +6,7 @@ function criarDivParaInput(nomeLabel, top, left) {
     div.style.position = "absolute";
     div.style.marginTop = top;
     div.style.marginLeft = left;
+
 
     let label = dom.createElement("label");
     label.setAttribute("id", "label"+nomeLabel);
@@ -16,6 +17,7 @@ function criarDivParaInput(nomeLabel, top, left) {
 
     let input = dom.createElement("input");
     input.setAttribute("id", "input"+nomeLabel);
+    input.size = size;
 
     div.append(label);
     div.append(input);
