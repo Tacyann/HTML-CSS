@@ -18,9 +18,9 @@ function criarComponentes() {
     criarDivParaInput("CPF", "10px", "250px");
     criarDivParaInput("DataNascimento", "50px", "10px");
 
-    criarDivParaButton("Salvar", "10px", "10px", "salvarCliente");
-    criarDivParaButton("Cliente no Console", "200px", "100px", "imprimirClienteNoConsole");
-    criarDivParaButton("Cliente no HTML", "200px", "250px", "imprimirClienteNoHtml");
+    criarDivParaButton("Salvar", "200px", "10px", "salvarCliente");
+    criarDivParaButton("Cliente no Console", "200px", "100px", "imprimirClientesNoConsole");
+    criarDivParaButton("Cliente no HTML", "200px", "250px", "imprimirClientesNoHTML");
 }
 
 criarComponentes();

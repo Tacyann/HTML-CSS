@@ -1,7 +1,7 @@
 function criarDivParaLabel(nomeLabel, top, left, cliente) {
 
     let div = document.createElement("div");
-    div.setAttribute("id", "div" + nomeLabel);
+    div.setAttribute("id", "div"+nomeLabel);
     div.style.position = "absolute";
     div.style.marginTop = top;
     div.style.marginLeft = left;
