@@ -1,3 +1,4 @@
+/*
 function criarDivParaLabel(nomeLabel, top, left, cliente) {
 
     let div = document.createElement("div");
@@ -23,3 +24,4 @@ function criarDivParaLabel(nomeLabel, top, left, cliente) {
     body.append(div);
 
 }
+*/

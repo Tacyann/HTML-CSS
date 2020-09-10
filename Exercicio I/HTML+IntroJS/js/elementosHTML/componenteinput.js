@@ -1,3 +1,4 @@
+/*
 function criarDivParaInput(nomeLabel, top, left, size) {
 
     let dom = document;
@@ -28,3 +29,4 @@ function criarDivParaInput(nomeLabel, top, left, size) {
     body.append(div);
 
 }
+*/

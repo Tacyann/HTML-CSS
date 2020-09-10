@@ -1,3 +1,4 @@
+/*
 function criarDivParaButton(nomeButton, top, left, onClick) {
 
     let div = document.createElement("div");
@@ -18,3 +19,4 @@ function criarDivParaButton(nomeButton, top, left, onClick) {
     let body = document.getElementById("divBody");
     body.append(div);
 }
+*/
