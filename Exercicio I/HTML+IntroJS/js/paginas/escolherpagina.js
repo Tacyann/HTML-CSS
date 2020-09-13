@@ -1,10 +1,10 @@
-function escolherPagina(opcao){
-    
+function escolherPagina(opcao) {
+
     indexedDB.innerHtml = "";
-    
+
     criarMenu();
-    switch(opcao){
-        case "cliente":
+    switch (opcao) {
+        case "cadastrar-cliente":
             cadastrarCliente();
             break;
         case "home":

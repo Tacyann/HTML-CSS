@@ -1,9 +1,17 @@
-function criarButton(){
+function criarButton(props) {
 
     let button = document.createElement("button");
-    button.id = props.id;
 
-    let text = criarTextNode( {text : props.text});
+    if (props.id) {
+        button.id = props.id;
+    }
+
+    if (props.onclick) {
+        button.setAttribute("onclick", props.onclick);
+    }
+
+    let text = criarTextNode({ text: props.text });
 
     button.append(text);
+    return button;
 }
