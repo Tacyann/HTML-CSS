@@ -5,5 +5,9 @@ function criarLi( props){
     let a = criarAHref({
         onclick: props.onclick,
         text: props.text
-    })
+    });
+
+    li.append(a);
+
+    return li;
 }
