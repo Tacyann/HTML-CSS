@@ -5,9 +5,9 @@ function init() {
     index.style.top = "10px";
     index.style.left = "10px";
     index.style.width = "800px";
-    index.style.height = "300 px";
+    index.style.height = "300px";
     index.style.border = "1px solid";
-    index.style.borderColor = "DCDCDC"
+    index.style.borderColor = "#DCDCDC"
 }
 
 init();

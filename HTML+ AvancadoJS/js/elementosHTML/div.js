@@ -39,7 +39,8 @@ function criarDivComButton(props){
 
     let button = criarButton({
         id:"button"+props.id,
-        text: props.text
+        text: props.text,
+        onclick: props.onclick
     });
 
     div.append(button);
@@ -62,12 +63,13 @@ function criarDivComLabel(props){
         id:props.id,
         text:props.text
     });
+    
     div.append(label);
 
     return div;
 }
 
-function criarDivConInput(props){
+function criarDivComInput(props){
 
     let div = criarDiv({
         id:props.id,

@@ -1,6 +1,6 @@
 function escolherPagina(opcao) {
 
-    indexedDB.innerHtml = "";
+    index.innerHTML = "";
 
     criarMenu();
     

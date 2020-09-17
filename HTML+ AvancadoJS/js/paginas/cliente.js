@@ -8,38 +8,38 @@ function cadastrarCliente() {
     //div
     //label
     //input
-    let nome = criarDivConInput({
+    let nome = criarDivComInput({
 
         id: "Nome",
-        class: " ",
+        class: "",
         position: "absolute",
         marginTop: "10px",
         marginLeft: "10px",
-        text: "Nome: ",
+        text: "Nome : ",
         placeholder: "Nome",
         type: "text"
     });
 
-    let cpf = criarDivConInput({
+    let cpf = criarDivComInput({
 
         id: "Cpf",
-        class: " ",
+        class: "",
         position: "absolute",
         marginTop: "10px",
-        marginLeft: "150px",
-        text: "CPF: ",
+        marginLeft: "250px",
+        text: "CPF : ",
         placeholder: "000.000.000-00",
         type: "text"
     });
 
-    let dataNascimento = criarDivConInput({
+    let dataNascimento = criarDivComInput({
 
         id: "DataNascimento",
         class: " ",
         position: "absolute",
         marginTop: "100px",
         marginLeft: "150px",
-        text: "Data de Nascimento: ",
+        text: "Data de Nascimento : ",
         placeholder: "dd/mm/AAAA",
         type: "text"
 
@@ -49,9 +49,9 @@ function cadastrarCliente() {
     index.append(cpf);
     index.append(dataNascimento);
 
-    let buttonSalvar = criarDivConInput({
+    let buttonSalvar = criarDivComButton({
         id: "Salvar",
-        class: " ",
+        class: "",
         position: "absolute",
         marginTop: "200px",
         marginLeft: "10px",
@@ -59,9 +59,9 @@ function cadastrarCliente() {
         onclick: "salvarCliente()"
     });
 
-    let buttonClienteNoConsole = criarDivConInput({
+    let buttonClienteNoConsole = criarDivComButton({
         id: "ClienteNoConsole",
-        class: " ",
+        class: "",
         position: "absolute",
         marginTop: "200px",
         marginLeft: "70px",
@@ -69,12 +69,12 @@ function cadastrarCliente() {
         onclick: "imprimirClienteNoConsole()"
     });
 
-    let buttonClienteNoHTML = criarDivConInput({
+    let buttonClienteNoHTML = criarDivComButton({
         id: "ClienteNoHTML",
-        class: " ",
+        class: "",
         position: "absolute",
         marginTop: "200px",
-        marginLeft: "21px",
+        marginLeft: "210px",
         text: "Cliente No HTML: ",
         onclick: "imprimirClienteNoHTML()"
     });
